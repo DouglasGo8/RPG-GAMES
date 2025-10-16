@@ -8,7 +8,7 @@ Main Object:  Chain Lightning
 
 ## Class Sorcerer
 
-- Level: 32
+- Level: 34
 - Character Name: Satanaah
 - Difficult Level: Hard
 
@@ -46,19 +46,13 @@ Main Object:  Chain Lightning
       "intelligence": 20,
       "maximum_life": 6,
       "life_per_secs": "6 per 5s",
-      "gem_slots": {
-        "total": 2,
-        "slots": [
-          {
-            "name": "Chipped Topaz",
-            "intelligence": "10"
-          },
-          {
-            "name": "Chipped Topaz",
-            "intelligence": "10"
-          }
-        ]
-      },
+      "tempering": "+8.5% Total Armor",
+      "gem_slots": null,
+      "runes": {
+        "CemTon": "Acrobatic Inferno",
+        "CastEvade": "1 Time",
+        "Power": "Invoke the Sorcere's Meteorites, dealing damage to enemies"
+      }
       "legendary_power": {
         "name": "Unwavering",
         "effect": "When you cast a Skill, you heal for 1.1% life. Double this bonus while below 50% life"
@@ -66,12 +60,13 @@ Main Object:  Chain Lightning
     },
     {
       "body": "Torso",
-      "armor_name": "Bone Barrier",
+      "armor_name": "Blood Bastion",
       "class": "Rare Chest Armor",
-      "power": 306,
-      "armor": 85,
-      "intelligence": 19,
-      "life": "+6 Maximum Life",
+      "power": 355,
+      "armor": 99,
+      "intelligence": 22,
+      "life": "+9 Maximum Life",
+      "mana_per_second": 2,
       "gem_slots": {
         "total": 2,
         "slots": [
@@ -136,6 +131,7 @@ Main Object:  Chain Lightning
       "intelligence": 22,
       "maximum_life": 7,
       "movement_speed": "11.6%",
+      "tempering": "7.0 Moviment Speed",
       "additional_effect": "Evade Grants 75% Movement Speed for 1.5 seconds",
       "gem_slots": null,
       "legendary_power": {
@@ -145,17 +141,23 @@ Main Object:  Chain Lightning
     },
     {
       "body": "Two-Handed",
-      "armor_name": "Focused Rough Staff of The Wise",
-      "class": "Magic Staff",
-      "power": 267,
-      "armor": 49,
+      "armor_name": "Flamethrower's Glorious Staff",
+      "class": "Legendary Staff",
+      "power": 390,
+      "damage_per_second": 85,
       "stats": {
-        "damage_per_hit": "39-59",
+        "damage_per_hit": "68-102",
         "attacks_per_second": "1.00",
-        "damage_over_time": "10.6%"
+        "damage_over_time": "14.2%"
       },
-      "intelligence": 37,
-      "critical_strike_damage": 36,
+      "intelligence": 49,
+      "damage": 15,
+      "overpower_damage": 60,
+      "temperings": 
+        {
+        "offensive": "27.0% Lightning Damage",
+        "weapons": "18.0% Chance for Ball Lightning Projectiles to cast Twice"
+        },
       "gem_slots": {
         "total": 2,
         "slots": [
@@ -205,7 +207,7 @@ Main Object:  Chain Lightning
         "sockets": null,
         "status": null,
         "offering": 100,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "name": "TEB",
@@ -223,7 +225,7 @@ Main Object:  Chain Lightning
         "sockets": null,
         "status": null,
         "offering": 20,
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "ritual": [
@@ -241,8 +243,16 @@ Main Object:  Chain Lightning
         "type": "Magic Rune of Ritual",
         "effect": "Cast Evade",
         "offering": 75,
-        "quantity": 2
-      }
+        "quantity": 1
+      },
+       {
+        "name": "CIR",
+        "type": "Magic Rune of Ritual",
+        "effect": "Cast 5 skills then become exhausted for 3 seconds",
+        "offering": 300,
+        "quantity": 1
+      },
+      
     ]
   }
 }
@@ -270,25 +280,25 @@ Main Object:  Chain Lightning
       }
     },
     {
-      "name": "Smiting Ensorcelled Ring",
+      "name": "Elementalist's Millipendian Circle",
       "equipped": true,
       "rarity": "Legendary Ring",
-      "item_power": 193,
+      "item_power": 380,
       "items": {
-        "resistance to all elements": "3.1%",
-        "poison_resistance": "3.1%"
+        "resistance_to_all_elements": "4.7",
+        "cold_resistance": "4.7%"
       },
       "stats": {
-        "intelligence": 13,
-        "maximum_life": 4,
-        "damage": "5.5%"
+        "maximum_life": 9,
+        "overpower_damage": "31.0%",
+        "lucky_hit": "Up to 15% chance to Heal +2 Life"
       },
       "gem_slots": {
         "Skull": "80% Armor"
       },
       "legendary_power": {
-        "name": "You have 13% increase Critical Strike, Change against enemies injured enemies",
-        "effect": "While you are healthy, you gain 26% increased Crowd Control Duration"
+        "name": "Core Skills",
+        "effect": "Skills cast at or above 100 Mana gain a 31.0% increased Critical Strike Chance"
       }
     },
     {
@@ -315,13 +325,13 @@ Main Object:  Chain Lightning
 
 ## Stats & Material
 
-- Life: 101
-- Armor: 501
-- Attack Power: 92
-- Strength: 106
-- Intelligence: 353
-- Willpower: 107
-- Dexterity: 106
+- Life: 116
+- Armor: 559
+- Attack Power: 173
+- Strength: 108
+- Intelligence: 338
+- Willpower: 109
+- Dexterity: 108
 
 ## Legendary Items (Stash)
 
@@ -485,7 +495,17 @@ Main Object:  Chain Lightning
       },
       {
         "name": "Icy Veil",
-        "rank": "2/3",
+        "rank": "3/3",
+        "completed": true
+      },
+      {
+        "name": "Stastic Discharge",
+        "rank": "1/3",
+        "completed": false
+      },
+       {
+        "name": "Conduction",
+        "rank": "1/3",
         "completed": false
       }
     ],
@@ -634,40 +654,3 @@ Main Object:  Chain Lightning
 - [ ] Optimize Paragon Boards (Level 50+)
 - [ ] Perfect Aspects setup
 - [ ] Veteran/Nightmare difficulty
-
-## Gear Progression Log
-
-### Update - Level 32
-
-**Total Intelligence:** 353
-
-**Major Changes:**
-
-- Difficulty: Normal → Hard
-- Head: Undying Adventurer's Helm (Legendary - heal on cast)
-- Weapon: Focused Rough Staff (+36% Crit base, +60% total Crit Damage)
-- Skills: Removed Frost Nova, added Glass Canon 3/3
-- Life: 101 (sustained by Undying power)
-- Armor: 501
-
-**Damage Multipliers:**
-
-- Devastation: +9%
-- Glass Canon: +18%
-- Elemental Attunement: +15% (close), +10% (distant)
-- Power Siphon: +50%
-- Vulnerable: +37% (weapon +18% + ring +18.5%) ⭐ ATUALIZAR!
-- Crit Damage: +60%
-- Crit Chance: +13% (vs injured)
-- Attack Speed: +25% (Prime only) ⭐ ATUALIZAR! (perdeu ring +3.5%)
-- Movement Speed: +43.9% (amulet + boots + legendary) ⭐ ADICIONAR!
-
-**Defense Layers:**
-- Ice Armor 5/5 (Manual + Auto-Enchantment)
-- Icy Veil 2/3 (+16% Barrier duration)
-- Undying Helm (1.1% heal per cast, 2.2% below 50%)
-- Protecting Bubble (2.5s immunity, 90s CD)
-- Aspect of Control (35% CC spread)
-- 501 Armor
-- 2.1% Dodge Chance
-- 43.9% Movement Speed
