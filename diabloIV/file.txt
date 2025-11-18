@@ -1,0 +1,291 @@
+## Paragon Tree
+
+```json
+{
+  "paragon": {
+    "level": 54,
+    "points_available": 0,
+    "points_spent": 78,
+    "boards": [
+      {
+        "id": 1,
+        "name": "Starter",
+        "status": "complete",
+        "points_spent": 34,
+        "glyph_socket": {
+          "equipped": "Elementalist",
+          "level": 4,
+          "radius": 3,
+          "target_level": 10,
+          "non_physical_damage": "13.0%",
+          "damage_to_elites": "19.5%",
+          "intelligence": 6,
+          "stats": [
+            {
+              "bonus": "Grants +32.5% bonus to all Rare nodes within range",
+              "legendary_bonus": "Increase non-physical damage by 5.0%",
+              "additional_bonus": "Dealing Fire, Cold or Lightning damage to a enemy increases all damage you deal to them by 5% for 10 seconds, stacking once per element, 56/+40 Intelligence"
+            }
+          ]
+        },
+        "nodes_acquired": {
+          "rare": 3,
+          "magic": 9,
+          "common": 22,
+          "legendary": 0
+        },
+        "legendary_node": null,
+        "rare_nodes": [
+          {
+            "name": "Elementalist",
+            "stats": {
+              "non_physical_damage": "40.0%",
+              "maximum_life": "4.0%",
+              "bonus": "Another +20.0% Non-Physical Damage if requirements met: 1,016/630 Intelligence"
+            }
+          },
+          {
+            "name": "Studied",
+            "stats": {
+              "damage_to_elites": "78.0%",
+              "intelligence": "+13",
+              "bonus": "Another +39.0% Damage to Elites if requirements met: 232/210 Willpower"
+            }
+          },
+          {
+            "name": "Elemental Balance",
+            "stats": {
+              "non_physical_damage": "52.0%",
+              "intelligence": "+13",
+              "bonus": "Another +26.0% Non-physical damage if requirement met: 223/210 Dexterity"
+            }
+          }
+        ],
+        "magic_nodes": {
+          "stats_nodes_acquired_sum": {
+            "non-physical_damage": "40.0%",
+            "maximum_life": 2,
+            "damage_to_elites": "45.0%",
+            "willpower": 7
+          }
+        },
+        "normal_nodes": {
+          "stats_nodes_acquired_sum": {
+            "intelligence": "60",
+            "strength": 10,
+            "dexterity": 25,
+            "willpower": 15
+          }
+        }
+      },
+      {
+        "id": 2,
+        "name": "Elemental Summoner",
+        "status": "in_progress",
+        "points_spent": 41,
+        "entry_gate": "top",
+        "conjuration_damage": "33.4% Conjuration Damage",
+        "glyph_socket": {
+          "equipped": "Conjurer",
+          "level": 1,
+          "radius": 3,
+          "target_level": 10,
+          "stats": [
+            {
+              "bonus": "For every 5 intelligence within range, Conjuration skills gain 3.0% increased damage",
+              "legendary_bonus": "Increase Conjuration Skill damage by 8.0%",
+              "additional_bonus": "Conjuration Skills have 15% increased Critical Hit Chance"
+            }
+          ]
+        },
+        "nodes_acquired": {
+          "rare": 2,
+          "magic": 6,
+          "common": 32
+        },
+        "legendary_node": {
+          "total": 1,
+          "stats": "Your conjuration skills have a 10% reduced cooldown or mana cost. They also deal bonus damage equal to 10% of the total amount of your Bonus Damage with Fire, Lightning and Cold up to 60%"
+        },
+        "rare_nodes": [
+          {
+            "name": "Keeper of Elements",
+            "stats": {
+              "non_physical_damage": "20.0%",
+              "intelligence": "10.0%",
+              "crackling_energy_damage": "6.5%",
+              "bonus": "Another +20.0% Non-Physical Damage if requirements met 272/285 Willpower"
+            }
+          },
+          {
+            "name": "Conjurer",
+            "stats": {
+              "conjuration_damage": "30.0%",
+              "intelligence": 10,
+              "bonus": "Another +30.0% Conjuration Damage if requirements met: 239/285 Dexterity"
+            }
+          }
+        ],
+        "magic_nodes": {
+          "stats_nodes_acquired_sum": {
+            "conjuration_damage": "15.0%",
+            "intelligence": 14,
+            "non_physical_damage": "30.0%"
+          }
+        },
+        "normal_nodes": {
+          "stats_nodes_acquired_sum": {
+            "intelligence": 80,
+            "strength": 15,
+            "dexterity": 15,
+            "willpower": 50
+          }
+        }
+      }
+    ],
+    "next_boards": [
+      {
+        "name": "Searing Heat"
+      },
+      {
+        "name": "Burning Instinct"
+      },
+      {
+        "name": "Frigid Fate"
+      },
+      {
+        "name": "IceFall"
+      },
+      {
+        "name": "Static Surge"
+      },
+      {
+        "name": "Ceaseless Conduit"
+      },
+      {
+        "name": "Enchantment Master"
+      },
+      {
+        "name": "Fundamental Release"
+      }
+    ],
+    "glyphs_stash": [
+      {
+        "name": "Adept",
+        "equipped": false,
+        "level": 5
+      },
+      {
+        "name": "Charged",
+        "equipped": true,
+        "level": 4
+      },
+      {
+        "name": "Elementalist",
+        "equipped": true,
+        "level": 4
+      },
+      {
+        "name": "Eliminator",
+        "equipped": false,
+        "level": 2
+      },
+      {
+        "name": "Conjurer",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Control",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Cryopathy",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Destruction",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Electrocute",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Enchanter",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Exploit",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Flamefeeder",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Imbiber",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Invocation",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Pyromaniac",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Reinforced",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Stalagmite",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Tactician",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Territorial",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Torch",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Unleash",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Warding",
+        "equipped": false,
+        "level": 1
+      },
+      {
+        "name": "Winter",
+        "equipped": false,
+        "level": 1
+      }
+    ]
+  }
+}
+```
