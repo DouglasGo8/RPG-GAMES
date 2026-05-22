@@ -2,7 +2,7 @@
 
 Main Object: Chain Lightning
 
-## Claude Sonnet 4.5 AI Guide
+## Guided by Gemini
 
 ---
 
@@ -482,13 +482,22 @@ Main Object: Chain Lightning
           "completed": true,
           "upgrades": [
             {
-              "name": "Enhanced Spark",
-              "completed": true
+              "name": "Crackling Energy",
+              "power": "Sparks forms a Crackling Energy each time damages a new target"
+            },
+            {
+              "name": "Firework",
+              "power": "Sparks becomes a Pyromancy Skill that deals Fire Damage",
+              "additional": "Sparks shocks now explodes, dealing 13,748 damage that gain 25% increased Critical Strike chance"
+            },
+            {
+              "name": "Critical Strike Chance",
+              "power": "Sparks gains 10% Critical Strike Chance"
             }
           ]
         }
-      ],
-      "passives": null
+      ]
+      
     },
     "core": {
       "skills": [
